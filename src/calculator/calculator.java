@@ -53,7 +53,7 @@ public class calculator {
 	public static boolean doYou() {
 		boolean answer;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Do you want to play again? (true/false)");
+		System.out.println("Do you want to calulate something else? (true/false)");
 		answer = sc.nextBoolean();
 		if (answer==true) {
 			return(true);
